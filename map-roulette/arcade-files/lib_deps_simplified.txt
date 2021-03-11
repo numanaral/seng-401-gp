@@ -1,0 +1,15 @@
+com.pixeltron.mapquest ---Uses--> com.pixeltron.mapquest
+com.pixeltron.maproulette.models ---Uses--> com.pixeltron.mapquest
+com.pixeltron.maproulette.models ---Uses--> fi.foyt.foursquare.api
+com.pixeltron.maproulette.models ---Uses--> org.json
+com.pixeltron.maproulette.responses ---Uses--> com.pixeltron.maproulette.responses
+com.pixeltron.maproulette.responses ---Uses--> com.pixeltron.maproulette.models
+com.pixeltron.maproulette.responses ---Uses--> fi.foyt.foursquare.api
+com.pixeltron.maproulette.servlets ---Uses--> com.pixeltron.maproulette.responses
+com.pixeltron.maproulette.servlets ---Uses--> com.pixeltron.mapquest
+com.pixeltron.maproulette.servlets ---Uses--> fi.foyt.foursquare.api
+com.pixeltron.maproulette.servlets ---Uses--> com.pixeltron.maproulette.models
+com.pixeltron.maproulette.servlets ---Uses--> org.json
+fi.foyt.foursquare.api ---Uses--> org.json
+fi.foyt.foursquare.api ---Uses--> fi.foyt.foursquare.api
+org.json ---Uses--> org.json
